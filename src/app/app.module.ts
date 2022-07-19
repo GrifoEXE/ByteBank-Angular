@@ -5,14 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [ //declarações dos componentes pra aparecer na aplicação
+  declarations: [
+    //declarações dos componentes pra aparecer na aplicação
     AppComponent,
-    NovaTransferenciaComponent
+    NovaTransferenciaComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
