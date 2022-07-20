@@ -18,7 +18,7 @@ export class NovaTransferenciaComponent {
     this.limparCampos();
   }
 
-  limparCampos(): void {
+  private limparCampos(): void {
     this.valor = 0;
     this.destino = 0;
   }
